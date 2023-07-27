@@ -1,0 +1,9 @@
+#Highest Score Calculator
+score= input("input scores")
+score= score.split(" ")
+highest_scr= 0
+for highest in score:
+    highest = int (highest)
+    if highest > highest_scr:
+        highest_scr = highest
+print(f"The Highest score is :{highest_scr}.")
